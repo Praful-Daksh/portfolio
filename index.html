@@ -102,7 +102,6 @@
     background-image: url('image.png');
     background-size: cover;
   }
-
   .sec-2 {
     width: 100%;
     height: fit-content;
@@ -145,8 +144,8 @@
     margin: auto;
   }
 
-  .sec-3 {
-  
+  .sidebar {
+  display: none;
   }
 
   @media (max-width:450px){
@@ -168,19 +167,23 @@
   }
     .sidebar{
     width:180px;
-    height:25rem;
+    height:20rem;
     z-index:2;
-    margin-top:77px;
+    margin-top:80px;
     position: fixed;
     top:0;
     right:1px;
-    border-radius:17px;
+    border-radius:6px;
     background: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
+    box-shadow:0px 0px 5px #000000A8;
     display:none;
   }
-  .sidebar h1{
-    font-size:1.5rem;
+  .sidebar h1,i{
+    font-size:1rem;
+    display:flex;
+    justify-content:center;
+    align-items: center;
   }
   .sidebar .head{
     margin-top:10px;
