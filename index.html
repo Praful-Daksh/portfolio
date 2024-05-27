@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  body {
+    font-family: " hammersmith one ";
+  }
+
+  header {
+    width: 100%;
+    height: fit-content;
+    border: 2px solid #F4FFFD;
+    background-color: #F4FFFD;
+    position: fixed;
+    top: 0;
+    letter-spacing: 2px;
+    z-index: 100;
+  }
+
+  .nav {
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .sec-1 {
+    width: 100%;
+    height: 35vh;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: url('line.jpg');
+    background-size: contain;
+  }
+
+  .info {
+    color: #011936;
+  }
+
+  .info p {
+    margin: 5px 0px;
+  }
+
+  .info h1 {
+    font-size: 2.2rem;
+    margin-bottom: 2px;
+    letter-spacing: 1.5px;
+  }
+
+  .social i {
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 1.4rem;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #011936;
+    color: #00AFB5;
+  }
+
+  .social i:hover {
+    box-shadow: 2px 2px 9px #00AFB5;
+  }
+
+  .social {
+    margin-top: 15px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .pfp {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url('image.png');
+    background-size: cover;
+  }
+
+  .sec-2 {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .ab {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .about {
+    width: 60%;
+    color: #00AFB5;
+  }
+
+  .about h3,
+  h5,
+  p {
+    margin-top: 10px;
+  }
+
+  .about-img {
+    width: 130px;
+    height: 170px;
+    border-radius: 8%;
+    background-image: url('about.jpg');
+    background-size: cover;
+    box-shadow: -4px 4px 5px black;
+  }
+
+  .sec-2 h2 {
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin: auto;
+  }
+
+  .sec-3 {
+    border: 2px solid black;
+    background-color: #F4FFFD;
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 100px;
+  }
+
+  .skill i {
+    font-size: 80px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 10%;
+    background-color: #011936;
+    color: #00AFB5;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .skill {
+    width: 75%;
+    margin: auto;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    justify-content: space-between;
+  }
+</style>
+
+<body>
+  <header>
+    <div class="nav">
+      <i class="fa fa-graduation-cap" style="font-size:1.6rem;"></i>
+      <h1>Portfolio</h1>
+      <i class="fa fa-bars" style="font-size:1.6rem;"></i>
+    </div>
+  </header>
+  <section class="sec-1">
+    <div class="info">
+      <h1>Hey There, </h1>
+      <h1>I'm <span style="color:#FF7700;">Praful Daksh</span></h1>
+      <h2>I am Into <span style="color:#A30000;">Full Stack</span></h2>
+      <p>Follow Me On</p>
+      <div class="social">
+        <i class="fa fa-github"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+    </div>
+    <div class="pfp">
+    </div>
+  </section>
+  <section class="sec-2">
+    <h2> <u>About Me</u></h2>
+    <div class="ab">
+      <div class="about-img">
+      </div>
+      <div class="about">
+        <h3 style="color:#011936;">I'm Praful</h3>
+        <h5 style="color:#011936;">Full Stack Developer</h5>
+        <p>I am a dedicated and enthusiastic Full Stack Developer currently pursuing a Bachelor of Computer Applications
+          (BCA). As a fresher, I bring a fresh perspective and a solid foundation in both front-end and back-end
+          technologies. Through various projects and internships, I have developed proficiency in languages such as
+          JavaScript and Python, and frameworks like React and Node.js.<br> My passion for coding, combined with a keen
+          eye for detail and a problem-solving mindset, equips me to tackle complex development challenges. I am eager
+          to contribute to innovative projects and am committed to continuous learning and growth in the dynamic field
+          of web development.</p>
+        <p>
+          <a href="">Email:</a>
+          prafuldaksh@proton.me.<br><br>
+          <a href="">Lives at:</a>
+          Greater Noida, Uttar Pradesh
+        </p>
+
+      </div>
+    </div>
+  </section>
+  <section class="sec-3">
+    <div class="text">
+      <h2><u>Skills</u></h2>
+    </div>
+    <div class="skill">
+      <i class="fa fa-html5"></i>
+      <i class="fa fa-css3"></i>
+      <i class="fa fa-git"></i>
+      <i class="fa fa-github"></i>
+      <i class="fa fa-camera"></i>
+
+    </div>
+  </section>
+
+
+</body>
+
+</html>
