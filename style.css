@@ -105,6 +105,7 @@ header nav {
 header h1 {
   color: #ffffff;
   font-size: 24px;
+
 }
 
 header div {
@@ -202,6 +203,7 @@ header p {
 .all-skills h1 {
   font-size: 32px;
   margin-bottom: 20px;
+  text-decoration: underline;
 }
 
 .skills {
@@ -248,7 +250,8 @@ header p {
 
 .works-sec h1 {
   font-size: 32px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  text-decoration: underline;
 }
 
 .works {
@@ -304,6 +307,7 @@ header p {
 .about-me h1 {
   font-size: 32px;
   margin-bottom: 20px;
+  text-decoration: underline;
 }
 
 .about-content {
@@ -351,6 +355,7 @@ header p {
 .ed-card h2 {
   font-size: 24px;
   margin: 10px 0;
+  text-decoration: underline;
 }
 
 .ed-card p {
@@ -365,7 +370,7 @@ header p {
 
 @keyframes float-img {
   25% {
-    transform: translate(0px, -10px);
+    transform: translate(0px, -15px);
   }
 
   50% {
@@ -373,7 +378,7 @@ header p {
   }
 
   75% {
-    transform: translate(0px, -10px);
+    transform: translate(0px, -15px);
   }
 
   100% {
@@ -384,11 +389,42 @@ header p {
 }
 @media only screen and (min-width: 1200px) {
   .work{
-    max-width: 40%;
+    max-width: 35%;
     height: 25vh;
     background-size: cover;
   }
   .navigation{
     display: flex;
   }
+}
+footer{
+  background-color: #2F3E46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+footer .foot{
+ max-width:80%;
+ text-align: center;
+  color: white;
+}
+footer .foot h1{
+  font-size: 28px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.foot .social{
+  margin: auto;
+  margin-top: 20px;
+  max-width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  cursor: pointer;
+  color: white;
+}
+.social ul li:hover{
+  transform: rotateY(180deg)
 }
