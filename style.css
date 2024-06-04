@@ -111,7 +111,22 @@ header div {
   display: flex;
   align-items: center;
 }
-
+header nav div i{
+  cursor: pointer;
+}
+.navigation ul{
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  list-style: none;
+}
+.navigation {
+  display:none;
+}
+.navigation ul li{
+  margin-right: 30px;
+  color: white;
+}
 header p {
   color: #ffffff;
   margin-right: 10px;
@@ -255,7 +270,13 @@ header p {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
+  transition: 150ms ease;
+  cursor: pointer;
+}
+.work:hover{
+  transform: translate(-5px, -5px);
+  box-shadow: 4px 4px 5px black;
 }
 
 .one {
@@ -360,4 +381,14 @@ header p {
     transform: translate(0px, -0px);
   }
 
+}
+@media only screen and (min-width: 1200px) {
+  .work{
+    max-width: 40%;
+    height: 25vh;
+    background-size: cover;
+  }
+  .navigation{
+    display: flex;
+  }
 }
