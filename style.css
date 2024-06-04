@@ -426,5 +426,5 @@ footer .foot h1{
   color: white;
 }
 .social ul li:hover{
-  transform: rotateY(180deg)
+  transform: rotateY(180deg);
 }
